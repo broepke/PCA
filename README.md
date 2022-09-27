@@ -4,6 +4,10 @@
 
 PCA finds the axis with the maximum variance and projects the points onto this axis. PCA uses Linear Algebra concepts known as **Eigenvectors** and **Eigenvalues**. There is a post on [Stack Exchange](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues/140579) which beautifully explains it.
 
+Here is a quick visual of two-dimensional data plotted with their eigenvectors. You can see how one of the vectors is aligned with the dimension with the greatest variance and the other orthogonal. The data is then projected onto this axis, reducing the amount of data but maintaining the overall variance.
+
+![Explained Variance](pcavisualize_0.png) 
+
 Recently I wrote about how PCA can be used for **image compression** (This repo also).  This time I want to talk about some of the fundamentals of PCA through visualization.  As I was learning about PCA and how powerful it is as a tool in your Machine Learning toolbox, I came across two different ways to **visualize PCA** that finally made it click for me. I thought I would share those two ways with you and take it further and show how models perform *with* and *without* dimensionality reduction. The two methods are:
 
 1. **Explained Variance Cumulative Plot**: This is simple but powerful. It immediately tells you how much of the variance in the data is explained by each component and how they combinations of the different components add up to the total variance.
