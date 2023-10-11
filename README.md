@@ -14,3 +14,5 @@ Recently I wrote about how PCA can be used for **image compression** (This repo 
 2. **Principal Components Overlayed with the Original Data**: This one is my absolute favorite. You can see the progression of how each principal component brings in slightly more information, and in turn, it becomes hard to distinguish between the different components. This plot is a perfect companion to the Explained Variance Cumulative Plot.
 
 Read more here: https://www.dataknowsall.com/pcavisualized.html
+
+Thank you!
